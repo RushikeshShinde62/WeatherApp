@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌤 Weather App</h1>
+      <form id="weather-form" onsubmit="getWeather(); return false;">
+        <input 
+          type="text" 
+          id="city" 
+          placeholder="Enter city name" 
+          autocomplete="off" 
+        />
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="result" aria-live="polite"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
