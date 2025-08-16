@@ -23,16 +23,21 @@ A simple web application to get current weather information for any city using t
 
    ```sh
    git clone https://github.com/RushikeshShinde62/WeatherApp.git
+   ```
+
+2. **go inside repo**
+
+   ```sh
    cd weather-app
    ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 
    ```sh
    npm install
    ```
 
-3. **Configure environment variables:**
+4. **Configure environment variables:**
 
    - Create a `.env` file in the root directory.
    - Add your OpenWeatherMap API key:
@@ -40,7 +45,7 @@ A simple web application to get current weather information for any city using t
      OPENWEATHER_API_KEY=your_actual_api_key_here
      ```
 
-4. **Start the server:**
+5. **Start the server:**
 
    ```sh
    node app.js
@@ -48,7 +53,7 @@ A simple web application to get current weather information for any city using t
    npx nodemon app.js
    ```
 
-5. **Open the app:**
+6. **Open the app:**
    - Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
