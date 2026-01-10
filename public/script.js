@@ -16,7 +16,7 @@ async function getWeather() {
 
         if (data.error) {
             document.getElementById('result').innerHTML = `<p style="color:red">${data.error}</p>`;
-        } else {
+        } else { 
             document.getElementById('result').innerHTML = `
                 <h2>${data.city}</h2>
                 <h3>${data.temp}°C</h3>
@@ -28,3 +28,4 @@ async function getWeather() {
         document.getElementById('result').innerHTML = `<p style="color:red">Error fetching weather</p>`;
     }
 }
+
